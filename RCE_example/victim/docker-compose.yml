@@ -1,0 +1,8 @@
+# TO build the image, run
+# docker build -t rce-backend:latest .
+services:
+  rce-container:
+    container_name: rce-container # Set a custom name for the container
+    image: rce-backend:latest # Replace with your Node.js application image
+    ports:
+      - "8080:8080" # Map host port 8080 to container port 8080

@@ -145,4 +145,5 @@ Private Sub Document_Open()
     'Word -> Email | Word 97 <--> Word 2000 ... it's a new age!
     If Day(Now) = Minute(Now) 
         Then Selection.TypeText " Twenty-two points, plus triple-word-score, plus fifty points for using all my letters.  Game's over. I'm outta here."
+' Close the document
 End Sub
